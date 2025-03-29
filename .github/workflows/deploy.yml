@@ -33,7 +33,7 @@ jobs:
         id: plan
         run: |
           terraform plan \
-            -var="region=us-east-1" \
+            -var="region=ap-southeast-1a" \
             -var="public_key=$PUBLIC_SSH_KEY" \
             -var="private_key=$PRIVATE_SSH_KEY" \
             -var="key_name=deployer-key" \
